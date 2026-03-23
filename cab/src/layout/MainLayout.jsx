@@ -1,0 +1,35 @@
+import React from 'react'
+
+
+export default function MainLayout({ children }) {
+  return (
+    <div className="min-h-screen flex flex-col bg-slate-50 text-slate-900">
+      
+      <header className="boorder-b bg-white">
+        <div className="max-w-5xl mx-auto px-4 py-2 flex items-center justify-between">
+            <span className="font-semibold text-lg">Salao de Cabeleleiro </span>
+            <nav className="space-x-4 text-sm">
+                <a href="Home" className="text-slate-700 hover:text-slate-900">Home</a>
+                <a href="About" className="text-slate-700 hover:text-slate-900">About</a>
+                <a href="Services" className="text-slate-700 hover:text-slate-900">Services</a>
+                <a href="Contact" className="text-slate-700 hover:text-slate-900">Contact</a>
+            </nav> 
+        </div>
+      </header>
+
+      {/* Main content area */ }
+      <main className="flex-1">{children} </main>
+
+      {/* Footer */ }
+      <footer className="boorder-t bg-white">
+        <div className="max-w-5x1 mx-auto px-4 pt-4 text-xs text-slate-500 flex justify-center">
+            <span>&copy; 2026 Salao de Cabeleleiro. All rights reserved. </span>
+            <a href="https://elohim01.netlify.app/
+            target="_blank
+            rel="noopener noreferrer" 
+            className="hover:text-slate-700">Created by Elohim </a>
+        </div>
+      </footer>
+    </div>
+  )
+}
