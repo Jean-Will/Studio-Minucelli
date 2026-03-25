@@ -9,10 +9,10 @@ export default function MainLayout({ children }) {
         <div className="max-w-5xl mx-auto px-4 py-2 flex items-center justify-between">
             <span className="font-semibold text-lg">Salao de Cabeleleiro </span>
             <nav className="space-x-4 text-sm">
-                <a href="Home" className="text-slate-700 hover:text-slate-900">Home</a>
-                <a href="About" className="text-slate-700 hover:text-slate-900">About</a>
-                <a href="Services" className="text-slate-700 hover:text-slate-900">Services</a>
-                <a href="Contact" className="text-slate-700 hover:text-slate-900">Contact</a>
+                <a href="#home" className="text-slate-700 hover:text-slate-900">Home</a>
+                <a href="#about" className="text-slate-700 hover:text-slate-900">About</a>
+                <a href="#services" className="text-slate-700 hover:text-slate-900">Services</a>
+                <a href="#contact" className="text-slate-700 hover:text-slate-900">Contact</a>
             </nav> 
         </div>
       </header>
