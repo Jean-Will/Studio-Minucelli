@@ -22,7 +22,7 @@ export default function ContactSection() {
               rel="noreferrer"
               className="inline-block rounded-full bg-emerald-500 px-5 py-2 text-xs md:text-sm font-semibold text-white hover:bg-emerald-600"
             >
-              Falar no WhatsApp
+            WhatsApp
             </a>
           </div>
 
@@ -36,7 +36,7 @@ export default function ContactSection() {
               rel="noreferrer"
               className="inline-block rounded-full bg-slate-900 px-5 py-2 text-xs md:text-sm font-semibold text-white hover:bg-slate-800"
             >
-              Ver Instagram
+              Instagram
             </a>
           </div>
 

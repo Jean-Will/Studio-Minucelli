@@ -1,5 +1,7 @@
 import React from 'react'
 
+import minucelliImg from '../imgs/minucelli_.jpg';
+
 export default function AboutSection() {
   return (
       <section
@@ -14,10 +16,12 @@ export default function AboutSection() {
             acolhedor, para que cada visita seja uma experiência completa de cuidado e bem-estar.
           </p>
         </div>
-        <div className="h-56 md:h-72 rounded-xl bg-slate-200">
-
-          {/* Aqui depois você pode trocar por uma imagem real do salão */}
-
+               <div className="mt-6 h-56 md:h-72 rounded-xl overflow-hidden">
+          <img
+            src={minucelliImg}
+            alt="Imagem do salão"
+            className="w-full h-full object-cover"
+          />
         </div>
       </section>
   )
